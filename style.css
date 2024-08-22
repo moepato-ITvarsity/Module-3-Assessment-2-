@@ -1,0 +1,257 @@
+/*=======whole html page=======*/
+
+html{
+    height: 100%;
+}
+
+/*=======body settings=======*/
+
+body{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+.body-home{
+    background-image: url('images/background1.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #04796b;
+}
+
+.body-starters{
+    background-image: url('images/tile-port.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+/*==========HOME PAGE==========*/
+
+.logo{
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+/*=====home page menu=====*/
+
+.home-menu-item{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid white;
+    
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+/*==========food PAGE Meals==========*/
+
+#main-meals{
+    padding-top: 100px;
+}
+.header{
+    background-color:#04796b;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    
+    position: fixed;
+    overflow: hidden;
+    text-align: center;
+}
+.header i{
+    float: left;
+    padding: 41px 20px;
+    color: white;
+}
+.header img{
+    width: 300px;
+    height: 85px;
+    padding-top: 14px;
+    padding-right: 25px;
+}
+
+/*==========meals PAGE menu==========*/
+
+.meal-list-item{
+    text-decoration: none;
+    border:5px solid #ff7c00;
+    display: block;
+    margin: 25px;
+}
+
+.meal-list-item h1{
+    font-weight: bold;
+    font-size: 20px;
+    color: #1a1a1a;
+    padding-left: 10px;
+}
+
+.meal-list-item p{
+    font-size: 15px;
+    font-style: italic;
+    color: floralwhite;
+    margin-top: 7px;
+    padding-left: 10px;
+}
+
+.meal-list-item i{
+    float: right;
+    padding-top: 15px;
+    padding-right: 10px;
+    color: #1a1a1a;
+}
+
+/*================ meals detail ================*/
+
+.meal-details img{
+    width: 100%;
+    margin-top: 90px;
+}
+
+.meal-details h1{
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid #ff7c00;
+    margin: 10px;
+    padding: 5px;
+    color: #1a1a1a;
+}
+
+.meal-price-info{
+    margin-left: 10px;
+    margin-right: 25px;
+}
+
+.meal label{
+    line-height: 30px;
+    margin-left: 10px;
+}
+
+/*=============== Style buttons =================*/
+
+.btn {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  background-color: indianred; 
+  border: solid #ff7c00; 
+  color: white; 
+  padding: 15px 16px; 
+  font-size: 16px; 
+  cursor: pointer; 
+}
+
+.btn:hover {
+  background-color: firebrick;
+}
+
+/*=======text are=======*/
+.notes{
+    margin-left: 10px;
+    padding-top: 5px;
+}
+
+.extras{
+    margin-left: 5px;
+}
+.about-meal{
+    margin-left: 5px;
+}
+
+/*====== Order Confirmation page ========*/
+
+.body-order-c{
+    background-image: url('images/tile-port.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.oder-c h2{
+    text-align: center;
+    text-decoration-line:underline;
+    text-decoration-style:dotted;
+    font-size: 50px;
+    font-family: cursive;
+    text-transform: uppercase;
+}
+
+.flair{
+  margin-right: auto;
+  padding-top: 100px;
+  margin-left: auto;
+  margin-top: auto;
+  width: 75%;
+  border:dotted;
+  height: 40%;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 10s;
+}
+
+@keyframes example {
+  0%   {background-color: red;}
+  10%  {background-color: yellow;}
+  20%  {background-color: Ivory;}
+  30% {background-color: green;}
+  40%   {background-color: Olive;}
+  50%  {background-color: Silver;}
+  60%  {background-color: Gray;}
+  70%  {background-color: Aquamarine;}
+  80%  {background-color: Wheat;}
+  90%  {background-color: Lime;}
+  100%  {background-color: Plum;}
+}
+
+.home-icon{
+    margin-top: 50px;
+    margin-left: 500px;
+}
+
+.home-icon a{
+    font-size: 50px;
+    color: firebrick;
+    text-decoration: none;
+}
+
+
+/*=============== RESPONSIVE LAYOUT ===============*/
+
+@media only screen and (min-width: 600px){
+    #main-meals{
+        width: 80%;
+        margin: auto;
+    }
+    
+    #meal{
+        width: 80%;
+        margin: auto;
+    }
+}
+  
+@media only screen and (min-width: 1000px){
+    #main-meals{
+        width: 75%;
+        margin: auto;
+    }
+    
+    #meal{
+        width: 75%;
+        margin: auto;
+    }
+}
+
